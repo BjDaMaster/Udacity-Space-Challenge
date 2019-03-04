@@ -21,7 +21,7 @@ public class Main {
      */
     public static void main(String[] args) throws FileNotFoundException {
         Simulation sim = new Simulation();
-        int numOfAttempts = 100000000; 
+        int numOfAttempts = 1000; 
         ArrayList<Item> items = sim.loadItemsPerPhase("phase1.txt"); 
         ArrayList<Rocket> u1Rockets = sim.loadU1(items);
         ArrayList<Rocket> u2Rockets = sim.loadU2(items);
